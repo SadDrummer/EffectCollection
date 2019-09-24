@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/two_cars.css">
-	<link rel="stylesheet" type="text/css" href="styles/moving_card.css">
-	<title>Effect Collection</title>
-</head>
-<body>
-	<div class="page_header"></div>
-	<div class="main_block">
-		<div id="two_cars_block">
-			<div id="two_cars_gif">
-				<img src="source/images/cars.gif" />
-				<div id="two_cars_ambient"></div>
-				<audio style="display: none;" src="source/audios/you_got_me.mp3" loop></audio>
-			</div>
-		</div>
-		<div id="moving_card">
-			<p>Rotate this card</p>
-			<div id="card_cell_block">
-				<div class="card_cell_row">
-					<div class="card_cell">
-					</div><div class="card_cell"></div>
-				</div>
-				<div class="card_cell_row">
-					<div class="card_cell">
-					</div><div class="card_cell"></div>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/two_cars.css">
+		<link rel="stylesheet" type="text/css" href="styles/moving_card.css">
+		<link rel="stylesheet" type="text/css" href="styles/nasty_ads.css">
+		<title>Effect Collection</title>
+	</head>
+	<body>
+		<div class="page_header"></div>
+		<div class="main_block">
+			<div id="two_cars_block">
+				<div id="two_cars_gif">
+					<img src="source/images/cars.gif" />
+					<div id="two_cars_ambient"></div>
+					<audio style="display: none;" src="source/audios/you_got_me.mp3" loop></audio>
 				</div>
 			</div>
-			<div id="card_upper_layer"></div>
+			<br />
+			<br />
+			<h2>Try to close this AD</h2>
+			<div id="nasty_ads_block">
+				<p>FREE NOW</p>
+				<p>Three-day penis</p>
+				<p>ENLAGEMENT</p>
+				<div id="close_ad">x</div>
+			</div>
+			<div id="moving_card">
+				<p>Rotate this card</p>
+				<div id="card_cell_block">
+					<div class="card_cell_row">
+						<div class="card_cell">
+						</div><div class="card_cell"></div>
+					</div>
+					<div class="card_cell_row">
+						<div class="card_cell">
+						</div><div class="card_cell"></div>
+					</div>
+				</div>
+				<div id="card_upper_layer"></div>
+			</div>
+
 		</div>
-	</div>
-<script type="text/javascript" src="scripts/two_cars.js"></script>
-<script type="text/javascript" src="scripts/moving_card.js"></script>
-</body>
+		<script type="text/javascript" src="scripts/two_cars.js"></script>
+		<script type="text/javascript" src="scripts/moving_card.js"></script>
+		<script type="text/javascript" src="scripts/nasty_ads.js"></script>
+	</body>
 </html>

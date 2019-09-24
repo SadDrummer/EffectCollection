@@ -1,0 +1,33 @@
+#nasty_ads_block{
+	width: 280px;
+	height: 120px;
+	padding: 20px 50px 20px 50px;
+	margin: auto;
+	background-color: yellow;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	cursor: default;
+	user-select: none;
+}
+
+#nasty_ads_block p{
+	height: 40px;
+	margin:  0px;
+	font-size: 30px;
+	color: red;
+	font-weight: 900;
+}
+
+#nasty_ads_block div{
+	position: absolute;
+	top: 0px;
+	left: 340px;
+	width: 40px;
+	height: 40px;
+	font-size: 35px;
+	background-color: #B5B5B5;
+}
+
+#nasty_ads_block div:hover{ background-color: #949494; }
+#nasty_ads_block div:active{ background-color: #7A7A7A; }
