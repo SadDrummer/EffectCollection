@@ -7,7 +7,7 @@ let timer = setInterval(()=>{
 }, 1000);
 
 ad.addEventListener("click", ()=>{
-	window.location = "http://google.com";
+	window.location = "https://www.healthline.com/health/mens-health/penis-stretching";
 });
 let close = ad.querySelector("div");
 close.addEventListener("mousedown", function(e){
