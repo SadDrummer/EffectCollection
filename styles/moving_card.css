@@ -1,0 +1,26 @@
+#card_cell_block{
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	margin-top: 83px;
+}
+
+.card_cell_row{
+	width: 100%;
+	height: 50%;
+	white-space: nowrap;
+}
+
+.card_cell{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	background-color: red;
+}
+
+#card_upper_layer{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
